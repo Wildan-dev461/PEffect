@@ -22,10 +22,6 @@ class PEffect extends PluginBase {
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
     }
 
-    public function onDisable(): void {
-        // Clean up and perform necessary actions on plugin disable.
-    }
-
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         if ($command->getName() === "peffect") {
             if (!$sender instanceof Player) {
