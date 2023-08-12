@@ -1,0 +1,14 @@
+# config.yml
+
+# Messages
+in_game_only_message: "This command can only be used in-game."
+no_permission_message: "§cYou don't have permission to use this command."
+usage_message: "Usage: /peffect <effect>"
+cooldown_message: "§cPlease wait {remaining-time} seconds before using this command again."
+invalid_effect_message: "§cInvalid effect type. Available effects: haste, speed, jump, strength, regeneration"
+effect_applied_message: "§eYou have been granted the {effect} effect for {duration} seconds."
+
+# Effect settings
+effect_duration: 45
+effect_level: 2
+effect_cooldown: 8
