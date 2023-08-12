@@ -1,0 +1,14 @@
+name: Player Effect
+version: 1.0.0
+api: [5.0.0]
+main: Wildan\peffect\PEffect
+author: YourName
+description: A plugin to give players the Haste effect
+commands:
+  peffect:
+    description: Give yourself powerfull effect
+    permission: peffect.command.use
+permissions:
+  peffect.command.use:
+    description: Allows the player to use the /peffect command
+    default: op
