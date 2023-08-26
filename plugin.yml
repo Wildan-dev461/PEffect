@@ -1,4 +1,4 @@
-name: Player Effect
+name: PlayerEffect
 version: 1.0.0
 api: [5.0.0]
 main: Wildan\peffect\PEffect
